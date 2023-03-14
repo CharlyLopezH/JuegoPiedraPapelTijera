@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+  align-items:flex-start;
+}
+.divTableHeading {
+	background-color: #61dafbaa;
+	display: table-header-group;
+  padding: 1.5em;
+
+}
+
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.h2 {
+  color: red;
+}
